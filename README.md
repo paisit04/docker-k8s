@@ -39,3 +39,9 @@ docker run -it CONTAINER_ID npm run test
 82. Docker Compose for Running Tests
 85. Need for Nginx
 87. Implementing Multi-Step Builds
+
+## Section9
+129. Environment Variables with Docker Compose
+131. Nginx Path Routing
+132. Routing with Nginx
+133. Building a Custom Nginx Image
