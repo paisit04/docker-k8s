@@ -57,3 +57,13 @@ docker run -it CONTAINER_ID npm run test
 ## Section12
 174. The Why's and What's of Kubernetes
 186. Running Containers in Pods
+
+## Section13
+191. Updating Existing Objects
+193. Limitations in Config Updates
+203. Triggering Deployment Updates
+204. Imperatively Updating a Deployment's Image
+```bash
+#kubectl set image <object_type>/<object_name> <contain_name>=<new_image_to_use>
+kubectl set image deployment/client-deployment client=stephengrider/multi-client:v5
+```
