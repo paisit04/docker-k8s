@@ -67,3 +67,18 @@ docker run -it CONTAINER_ID npm run test
 #kubectl set image <object_type>/<object_name> <contain_name>=<new_image_to_use>
 kubectl set image deployment/client-deployment client=stephengrider/multi-client:v5
 ```
+
+## Section14
+212. NodePort vs ClusterIP Services
+223. The Need for Volumes with Databases
+224. Kubernetes Volumes
+225. Volumes vs Persistent Volumes
+226. Persistent Volumes vs Persistent Volume Claims
+228. Persistent Volume Access Modes
+229. Where Does Kubernetes Allocate Persistent Volumes?
+234. Creating an Encoded Secret
+```bash
+#kubectl create secret generic <secret_name> --from-literal key=value
+kubectl create secret generic pgpassword --from-literal PGPASSWORD=password123
+```
+237. Environment Variables as Strings
