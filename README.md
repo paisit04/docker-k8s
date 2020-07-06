@@ -82,3 +82,10 @@ kubectl set image deployment/client-deployment client=stephengrider/multi-client
 kubectl create secret generic pgpassword --from-literal PGPASSWORD=password123
 ```
 237. Environment Variables as Strings
+
+## Section14
+239. A Quick Note on Ingresses
+```bash
+# We're using ingress-nginx, a community led project.
+# https://kubernetes.github.io/ingress-nginx/
+```
